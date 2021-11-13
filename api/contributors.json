@@ -51,12 +51,6 @@
     "url": "https://training.galaxyproject.org/training-material/api/contributors/AfiDede.json"
   },
   {
-    "name": "Adelaide Rhodes",
-    "joined": "2021-05",
-    "id": "Arhodes-NCBI",
-    "url": "https://training.galaxyproject.org/training-material/api/contributors/Arhodes-NCBI.json"
-  },
-  {
     "name": "Enis Afgan",
     "joined": "2018-06",
     "id": "afgane",
@@ -1087,6 +1081,12 @@
     "url": "https://training.galaxyproject.org/training-material/api/contributors/pajanne.json"
   },
   {
+    "name": "Adelaide Rhodes",
+    "joined": "2021-05",
+    "id": "RareSeas",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/RareSeas.json"
+  },
+  {
     "name": "Pavankumar Videm",
     "joined": "2017-09",
     "id": "pavanvidem",
@@ -1279,6 +1279,12 @@
     "url": "https://training.galaxyproject.org/training-material/api/contributors/subinamehta.json"
   },
   {
+    "name": "Suchitra Thapa",
+    "joined": "2021-11",
+    "id": "suchitrathapa",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/suchitrathapa.json"
+  },
+  {
     "name": "Yi Sun",
     "email": "yi.sun@embl.de",
     "joined": "2021-03",
@@ -1290,6 +1296,12 @@
     "joined": "2017-09",
     "id": "tealiie",
     "url": "https://training.galaxyproject.org/training-material/api/contributors/tealiie.json"
+  },
+  {
+    "name": "Gonçalo Themudo",
+    "joined": "2021-10",
+    "id": "themudo",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/themudo.json"
   },
   {
     "name": "Thoba Lose",
