@@ -210,6 +210,8 @@
                                
                        
                                
+                       
+                               
 			{
 				"id": "admin/tutorials/users-groups-quotas/slides",
 				"topic": "Galaxy Server administration",
@@ -224,6 +226,12 @@
 					
                        
                        
+                       
+                               
+                       
+                               
+                       
+                               
                        
                                
                        
@@ -294,6 +302,8 @@
                        
                                
                        
+                               
+                       
                
 					
                        
@@ -346,9 +356,18 @@
                        
                                
 			{
-				"id": "data-management/tutorials/data-steward/slides",
+				"id": "data-management/tutorials/0013_file-naming/slides",
 				"topic": "RDMBites Data Management",
-				"title": "What is a Data Steward?"
+				"title": "How to Name Files"
+			},
+								
+                               
+                       
+                               
+			{
+				"id": "data-management/tutorials/0114_data-stewardship/slides",
+				"topic": "RDMBites Data Management",
+				"title": "What is Data Stewardship?"
 			},
 								
                                
@@ -384,10 +403,16 @@
                        
                                
                        
+                               
+                       
+                               
+                       
                
 					
                        
                        
+                       
+                               
                        
                                
                        
@@ -486,60 +511,68 @@
                        
                                
                        
-               
-					
-                       
-                       
-                       
-               
-					
-                       
-                       
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
                                
                        
                
 					
                        
                        
+                       
+               
+					
+                       
+                       
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+               
+					
+                       
+                       
+                       
+                               
+                       
+                               
                        
                                
                        
@@ -561,6 +594,8 @@
                                
                        
                                
+                       
+                               
 			{
 				"id": "genome-annotation/tutorials/apollo/slides",
 				"topic": "Genome Annotation",
@@ -574,32 +609,12 @@
                        
                        
                        
-               
-					
-                       
-                       
-                       
-                               
-                       
-                               
-                       
-                               
-                       
                                
                        
                
 					
                        
                        
-                       
-               
-					
-                       
-                       
-                       
-                               
-                       
-                               
                        
                                
                        
@@ -618,6 +633,32 @@
 					
                        
                        
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+               
+					
+                       
+                       
+                       
+               
+					
+                       
+                       
+                       
+                               
+                       
+                               
                        
                                
                        
@@ -714,21 +755,30 @@
                        
                                
                        
-               
-					
-                       
-                       
-                       
-                               
-                       
-                               
-                       
                                
                        
                
 					
                        
                        
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+               
+					
+                       
+                       
+                       
+               
+					
+                       
+                       
+                       
+                               
                        
                                
                        
@@ -812,12 +862,16 @@
                                
                        
                                
+                       
+                               
 			{
 				"id": "transcriptomics/tutorials/scrna-plates-batches-barcodes/slides",
 				"topic": "Transcriptomics",
 				"title": "Plates, Batches, and Barcodes"
 			},
 								
+                               
+                       
                                
                        
                                
@@ -881,6 +935,13 @@
                                
                        
                                
+                       
+                               
+                       
+               
+					
+                       
+                       
                        
                
 					
