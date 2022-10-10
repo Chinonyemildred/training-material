@@ -17,12 +17,14 @@
         <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
         <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
+        <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-functions/tutorial.html" />
+        <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
 
         <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material" />
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Python - Functions" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:25 +0000" />
+<meta name="DC.date" content="1970-01-01 00:00:29 +0000" />
 <meta name="DC.creator" content="The Carpentries" />
 <meta name="DC.creator" content="Helena Rasche" />
 <meta name="DC.creator" content="Donny Vrins" />
@@ -260,23 +262,6 @@
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
     "@type": "CreativeWork"
   },
-  "accessMode": [
-    "textual",
-    "visual"
-  ],
-  "accessModeSufficient": [
-    "textual",
-    "visual"
-  ],
-  "accessibilityControl": [
-    "fullKeyboardControl",
-    "fullMouseControl"
-  ],
-  "accessibilityFeature": [
-    "alternativeText",
-    "tableOfContents"
-  ],
-  "accessibilitySummary": "The text aims to be as accessible as possible. Image descriptions will vary per tutorial, from images being completely inaccessible, to images with good descriptions for non-visual users.",
   "audience": {
     "@type": "EducationalAudience",
     "educationalRole": "Students"
@@ -292,7 +277,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:25 +0000",
+  "dateModified": "1970-01-01 00:00:29 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Python - Functions",
   "interactivityType": "mixed",
@@ -318,15 +303,32 @@
     "url": "https://galaxyproject.org/teach/gtn/"
   },
   "identifier": "https://github.com/galaxyproject/training-material",
+  "accessMode": [
+    "textual",
+    "visual"
+  ],
+  "accessModeSufficient": [
+    "textual",
+    "visual"
+  ],
+  "accessibilityControl": [
+    "fullKeyboardControl",
+    "fullMouseControl"
+  ],
+  "accessibilityFeature": [
+    "alternativeText",
+    "tableOfContents"
+  ],
+  "accessibilitySummary": "The text aims to be as accessible as possible. Image descriptions will vary per tutorial, from images being completely inaccessible, to images with good descriptions for non-visual users.",
   "isPartOf": {
     "@type": "CreativeWork",
     "name": "Foundations of Data Science",
     "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
-    "url": "https://training.galaxyproject.org//training-material/topics/data-science/"
+    "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
   },
   "learningResourceType": "hands-on tutorial",
   "name": "Hands-on for 'Python - Functions' tutorial",
-  "url": "https://training.galaxyproject.org//training-material/topics/data-science/tutorials/python-functions/tutorial.html",
+  "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-functions/tutorial.html",
   "timeRequired": "PT30M",
   "keywords": "data-science, jupyter-notebook",
   "description": "The questions this  addresses are:\n - How do I write functions in Python?\n - What is a function?\n - What do they look like?\n - Fill in the missing part of a function\n\n\\nThe objectives are:\n - Understand the structure of a \"function\" in order to be able to construct their own functions and predict which functions will not work.\n\n",
@@ -339,7 +341,7 @@
     {
       "@context": "http://schema.org",
       "@type": "LearningResource",
-      "url": "https://training.galaxyproject.org//training-material/topics/data-science/tutorials/python-math/tutorial.html",
+      "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-math/tutorial.html",
       "name": "Python - Math",
       "description": "Hands-on for 'Python - Math' tutorial",
       "learningResourceType": "hands-on tutorial",
@@ -533,7 +535,7 @@
       "@type": "CreativeWork",
       "name": "Foundations of Data Science",
       "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
-      "url": "https://training.galaxyproject.org//training-material/topics/data-science/"
+      "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
     }
   ],
   "educationalLevel": "Beginner"
@@ -679,6 +681,10 @@
                     
                         
                     
+                        
+                    
+                        
+                    
                 
             </ul>
         
@@ -758,7 +764,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Apr 25, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Sep 29, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -944,7 +950,7 @@ print(f"Here is the value of a: {function_that_returns_10()}")
 <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'boiling point of water in Kelvin: </span><span class="si">{</span><span class="n">fahr_to_kelvin</span><span class="p">(</span><span class="mf">212.0</span><span class="p">)</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>For a function this small, with such a descriptive name (<code class="language-plaintext highlighter-rouge">fahr_to_kelvin</code>) it feels quite obvious what the function should do, what inputs it takes, what outputs it produces. However</p>
+<p>For a function this small, with such a descriptive name (<code class="language-plaintext highlighter-rouge">fahr_to_kelvin</code>) it feels quite obvious what the function should do, what inputs it takes, what outputs it produces. However, you will thank yourself in the future if you do this now. You may think you will remember what the code does, but, be kind to your future self who is busy and stressed and may not want to spend time reading the code over again to figure out what every single function does.</p>
 
 <blockquote class="question">
   <h3 id="question-question-converting-statements-to-functions"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Question: Converting statements to functions</h3>
@@ -958,6 +964,7 @@ print(f"Here is the value of a: {function_that_returns_10()}")
     c = (a + b) / 2
     return c
 </code></pre></div>    </div>
+    <p>We call it “average2” here because it will only average two numbers. It will not work for three numbers or a list of them.</p>
   </blockquote>
 </blockquote>
 
@@ -1114,6 +1121,12 @@ print(f"Here is the value of a: {function_that_returns_10()}")
                         <li><p>Everything you do will require functions</p>
 </li>
                         
+                        <li><p>Functions keep your code DRY (don’t repeat yourself), reducing your copying and pasting or rewriting the same block of code.</p>
+</li>
+                        
+                        <li><p>Deciding what part of your code should, or should not be, a function is something that will come with practice.</p>
+</li>
+                        
                     </ul>
                 </blockquote>
                 
@@ -1142,7 +1155,7 @@ print(f"Here is the value of a: {function_that_returns_10()}")
                 
 
                 <h1>Feedback</h1>
-                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.
+                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452">how it went</a>.
                 <br>Did you use this material as a learner or student? Click the form below to leave feedback.<i class="fas fa-hand-point-down"></i>
                 </p>
 
@@ -1195,8 +1208,8 @@ print(f"Here is the value of a: {function_that_returns_10()}")
 author = "The Carpentries and Helena Rasche and Donny Vrins and Bazante Sanders",
 title = "Python - Functions (Galaxy Training Materials)",
 year = "2022",
-month = "04",
-day = "25"
+month = "09",
+day = "29"
 url = "\url{https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-functions/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }

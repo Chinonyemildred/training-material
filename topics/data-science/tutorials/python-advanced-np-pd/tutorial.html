@@ -17,12 +17,14 @@
         <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
         <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
+        <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-advanced-np-pd/tutorial.html" />
+        <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
 
         <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material" />
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Advanced Python" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:19 +0000" />
+<meta name="DC.date" content="1970-01-01 00:00:22 +0000" />
 <meta name="DC.creator" content="Maria Christina Maniou" />
 <meta name="DC.creator" content="Fotis E. Psomopoulos" />
 <meta name="DC.creator" content="The Carpentries" />
@@ -260,23 +262,6 @@
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
     "@type": "CreativeWork"
   },
-  "accessMode": [
-    "textual",
-    "visual"
-  ],
-  "accessModeSufficient": [
-    "textual",
-    "visual"
-  ],
-  "accessibilityControl": [
-    "fullKeyboardControl",
-    "fullMouseControl"
-  ],
-  "accessibilityFeature": [
-    "alternativeText",
-    "tableOfContents"
-  ],
-  "accessibilitySummary": "The text aims to be as accessible as possible. Image descriptions will vary per tutorial, from images being completely inaccessible, to images with good descriptions for non-visual users.",
   "audience": {
     "@type": "EducationalAudience",
     "educationalRole": "Students"
@@ -292,7 +277,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:19 +0000",
+  "dateModified": "1970-01-01 00:00:22 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Advanced Python",
   "interactivityType": "mixed",
@@ -318,15 +303,32 @@
     "url": "https://galaxyproject.org/teach/gtn/"
   },
   "identifier": "https://github.com/galaxyproject/training-material",
+  "accessMode": [
+    "textual",
+    "visual"
+  ],
+  "accessModeSufficient": [
+    "textual",
+    "visual"
+  ],
+  "accessibilityControl": [
+    "fullKeyboardControl",
+    "fullMouseControl"
+  ],
+  "accessibilityFeature": [
+    "alternativeText",
+    "tableOfContents"
+  ],
+  "accessibilitySummary": "The text aims to be as accessible as possible. Image descriptions will vary per tutorial, from images being completely inaccessible, to images with good descriptions for non-visual users.",
   "isPartOf": {
     "@type": "CreativeWork",
     "name": "Foundations of Data Science",
     "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
-    "url": "https://training.galaxyproject.org//training-material/topics/data-science/"
+    "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
   },
   "learningResourceType": "hands-on tutorial",
   "name": "Hands-on for 'Advanced Python' tutorial",
-  "url": "https://training.galaxyproject.org//training-material/topics/data-science/tutorials/python-advanced-np-pd/tutorial.html",
+  "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-advanced-np-pd/tutorial.html",
   "timeRequired": "PT3H",
   "keywords": "data-science, jupyter-notebook",
   "description": "The questions this  addresses are:\n - How can I analyze data using Python with Numpy and Pandas?\n\n\\nThe objectives are:\n - Use the scientific libraries pandas and numpy to explore tabular datasets\n - Calculate basic statistics about datasets and columns\n\n",
@@ -339,7 +341,7 @@
     {
       "@context": "http://schema.org",
       "@type": "LearningResource",
-      "url": "https://training.galaxyproject.org//training-material/topics/data-science/tutorials/python-basics/tutorial.html",
+      "url": "https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-basics/tutorial.html",
       "name": "Introduction to Python",
       "description": "Hands-on for 'Introduction to Python' tutorial",
       "learningResourceType": "hands-on tutorial",
@@ -533,7 +535,7 @@
       "@type": "CreativeWork",
       "name": "Foundations of Data Science",
       "description": "These lessons will help you get your feet in data science and give you tools to help you slice and dice your data into results.",
-      "url": "https://training.galaxyproject.org//training-material/topics/data-science/"
+      "url": "https://training.galaxyproject.org/training-material/topics/data-science/"
     }
   ],
   "educationalLevel": "Intermediate"
@@ -673,6 +675,10 @@
                     
                         
                     
+                        
+                    
+                        
+                    
                 
             </ul>
         
@@ -769,7 +775,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Apr 19, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Sep 22, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -1379,12 +1385,12 @@ c. <code class="language-plaintext highlighter-rouge">data[data['Chromosome'] ==
 <span class="k">print</span><span class="p">(</span><span class="n">summarised_data</span><span class="p">)</span>
 </code></pre></div></div>
 
-<blockquote>
+<blockquote class="question">
   <h3 id="question-question-finding-the-max-of-each-group"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Question: Finding the max of each group</h3>
 
   <p>Using the same dataset, try to find the longest genes in each chromosome.</p>
 
-  <blockquote>
+  <blockquote class="solution">
     <h3 id="solution-solution-7"><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden">solution</span> Solution</h3>
 
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data['Gene Length'] = data['End'] - data['Start']
@@ -1447,7 +1453,7 @@ data.groupby('Chromosome').agg(max_length = ('Gene Length', 'max'))
                 
 
                 <h1>Feedback</h1>
-                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452" target="_blank">how it went</a>.
+                <p class="text-muted">Did you use this material as an instructor? Feel free to give us feedback on <a href="https://github.com/galaxyproject/training-material/issues/1452">how it went</a>.
                 <br>Did you use this material as a learner or student? Click the form below to leave feedback.<i class="fas fa-hand-point-down"></i>
                 </p>
 
@@ -1500,8 +1506,8 @@ data.groupby('Chromosome').agg(max_length = ('Gene Length', 'max'))
 author = "Maria Christina Maniou and Fotis E. Psomopoulos and The Carpentries and Erasmus+ Programme",
 title = "Advanced Python (Galaxy Training Materials)",
 year = "2022",
-month = "04",
-day = "19"
+month = "09",
+day = "22"
 url = "\url{https://training.galaxyproject.org/training-material/topics/data-science/tutorials/python-advanced-np-pd/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
